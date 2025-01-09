@@ -27,8 +27,8 @@ The project is organized as follows:
 
 ## Rust Features Used
 
-- **Ownership and Borrowing**: Has has heavy influence on the broker design so far, with respect to how the Kafka's internal components interact (not much impact on the wire protocol itself).
-- **Concurrency**: Concurrency primitives such as threads, Arc and Mutex to handle concurrent tasks.
+- **Ownership and Borrowing**: Has heavily influenced the broker design so far, concerning how Kafka's internal components interact (not much impact on the wire protocol itself).
+- **Concurrency**: Concurrency primitives such as threads, Arc, and Mutex to handle concurrent tasks.
 - **Error Handling**: Error handling using `Result` and `Option` types.
 - **Traits and Generics**: Uses traits and generics to write reusable code and for dynamic dispatch.
 - **Pattern Matching**: Pattern matching for control flow and data manipulation according to data types.
@@ -36,7 +36,7 @@ The project is organized as follows:
 ## Getting Started
 
 To build and run the project, use the following commands:
-> Note: I used the tester from `codecrafters.io` to aid testing my implementation. My implementation passed all the existing tests. I am working on my own client implementation to test all the core Kafka features as those APIs take shape.
+> Note: I used the tester from `codecrafters.io` to aid in testing my implementation. My implementation passed all the existing tests. I am working on my own client implementation to test all the core Kafka features as those APIs take shape.
 
 ```sh
 cargo build
